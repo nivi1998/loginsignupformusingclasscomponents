@@ -1,0 +1,28 @@
+.Layout {
+  &__wrapper {
+
+
+    @media (min-width: 1200px) {
+      &::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: var(--slim-grey);
+        border-radius: 20px;
+      }
+    }
+  }
+
+    .childrenStyle{
+      margin-top: 80px;
+    }
+
+  // .Layout__header {
+  //   height: 75px;
+  // }
+}
